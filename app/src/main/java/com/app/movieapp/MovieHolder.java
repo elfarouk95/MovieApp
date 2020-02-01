@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.app.movieapp.databinding.MovieitemBinding;
+
 
 public class MovieHolder extends RecyclerView.ViewHolder {
 

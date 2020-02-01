@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Youtube"
+        android:icon="@drawable/ic_recent"
+        android:title="Top Rated" />
+
+    <item
+        android:id="@+id/Google"
+        android:icon="@drawable/ic_favorites"
+        android:title="Movie" />
+
+    <item
+        android:id="@+id/FaceBook"
+        android:icon="@drawable/ic_nearby"
+        android:title="Popuar" />
+
+</menu>

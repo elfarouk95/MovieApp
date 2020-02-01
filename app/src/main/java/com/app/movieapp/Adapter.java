@@ -35,7 +35,7 @@ public class Adapter extends RecyclerView.Adapter<MovieHolder> {
     public void onBindViewHolder(@NonNull MovieHolder m, int i) {
 
         final Movie n = movies.get(i);
-        m.Name.setText(n.getTitle());
+        m.Name.setText(n.getOriginalTitle());
         m.rat.setRating((float) n.getVoteAverage() / 2);
         m.RelDate.setText(n.getReleaseDate());
         String imgPath = "https://image.tmdb.org/t/p/w500/" + n.getPosterPath();
